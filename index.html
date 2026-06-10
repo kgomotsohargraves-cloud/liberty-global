@@ -231,6 +231,111 @@
             </div>
         </div>
     </footer>
+<style>
+    .lgc-contact-section {
+        font-family: Arial, sans-serif;
+        max-width: 650px;
+        margin: 60px auto;
+        padding: 30px;
+        background-color: #f8fafc;
+        border: 1px solid #e2e8f0;
+        border-top: 4px solid #0b2240;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .lgc-contact-header {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .lgc-contact-header h2 {
+        color: #0b2240;
+        margin: 0 0 10px 0;
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .lgc-contact-header p {
+        color: #64748b;
+        font-size: 14px;
+        margin: 0;
+    }
+    .lgc-form-group {
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .lgc-form-label {
+        display: block;
+        font-size: 13px;
+        font-weight: bold;
+        color: #0b2240;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+    }
+    .lgc-form-input, .lgc-form-textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #cbd5e1;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+        color: #1a2530;
+    }
+    .lgc-form-textarea {
+        resize: vertical;
+        height: 120px;
+    }
+    .lgc-submit-btn {
+        width: 100%;
+        background-color: #0b2240;
+        color: #ffffff;
+        border: none;
+        padding: 12px;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .lgc-submit-btn:hover {
+        background-color: #3b82f6;
+    }
+</style>
 
+<div class="lgc-contact-section">
+    <div class="lgc-contact-header">
+        <h2>Secure Engagement Portal</h2>
+        <p>Request a confidential advisory briefing or statutory forensic audit consultation.</p>
+    </div>
+    
+    <form action="#" method="POST">
+        <div class="lgc-form-group">
+            <label class="lgc-form-label">Full Name / Institutional Title</label>
+            <input type="text" class="lgc-form-input" placeholder="e.g., Managing Director / Chief Compliance Officer" required>
+        </div>
+        
+        <div class="lgc-form-group">
+            <label class="lgc-form-label">Organization / Statutory Body</label>
+            <input type="text" class="lgc-form-input" placeholder="e.g., Enterprise Bank / Regulatory Authority" required>
+        </div>
+        
+        <div class="lgc-form-group">
+            <label class="lgc-form-label">Secure Institutional Email</label>
+            <input type="email" class="lgc-form-input" placeholder="name@organization.com" required>
+        </div>
+        
+        <div class="lgc-form-group">
+            <label class="lgc-form-label">Nature of Mandate Advisory</label>
+            <input type="text" class="lgc-form-input" placeholder="e.g., Forensic Audit, AML Model Validation, Cross-Border Scale Strategy" required>
+        </div>
+        
+        <div class="lgc-form-group">
+            <label class="lgc-form-label">Brief Overview of Operational Scope</label>
+            <textarea class="lgc-form-textarea" placeholder="Please provide a non-confidential summary of the systemic requirements, timelines, and regulatory oversight parameters..." required></textarea>
+        </div>
+        
+        <button type="submit" class="lgc-submit-btn">Initiate Executive Briefing</button>
+    </form>
+</div>
 </body>
 </html>
